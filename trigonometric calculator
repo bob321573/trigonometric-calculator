@@ -1,0 +1,8 @@
+function trigonometricCalculator(angle) {
+  const radian = angle * Math.PI / 180;
+  const sin = Math.sin(radian);
+  const cos = Math.cos(radian);
+  const tan = Math.tan(radian);
+  
+  return { sin, cos, tan };
+}
